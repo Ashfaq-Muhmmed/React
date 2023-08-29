@@ -49,3 +49,13 @@ Ye sirf kuch important fields hain. Ek standard `package.json` file generally ku
 
 `package.json` ki yeh information aapke project ko maintain karne aur build process ko automate karne mein madad karti hai.
 
+
+# `package.json`Install krna 
+
+jab bhi ek new developer ko `package.json` install krna ho to command prompt me type kro.
+```
+npm start
+```
+`package.json` install ho jayega.
+
+
