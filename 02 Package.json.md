@@ -1,5 +1,5 @@
 
-# Project 
+# Package.json Kya hota hai. 
 `package.json` React me ek important file hoti hai jo ki project ke dependencies (dependencies), scripts, metadata, aur configurations ko define karti hai. Ye file aapke React application ke root directory mein hoti hai.
 
 Kuch important fields `package.json` mein hote hain:
