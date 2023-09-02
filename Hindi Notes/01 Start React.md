@@ -21,6 +21,6 @@ npx create-react-app ___ (apne us folder ka name jisme kaam krenge)
 ```
 npm Start 
 ``` 
-- React app **localhost:3000** pr live he.
+- ***React app **localhost:3000** pr live he.***
 
 
