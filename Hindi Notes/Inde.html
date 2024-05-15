@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        document.getElementById("downloadBtn").addEventListener("click", function () {
+            // Create a dummy text file content
+            var text = "Hello, this is a dummy text file.";
+
+            // Create a Blob object with the file content
+            var blob = new Blob([text], { type: "text/plain" });
+
+            // Create a download link
+            var downloadLink = document.createElement("a");
+            downloadLink.download = "dummy.txt";
+            downloadLink.href = URL.createObjectURL(blob);
+
+            // Trigger the download
+            downloadLink.click();
+        });
+    </script>
+</body>
+
+</html>
